@@ -11,7 +11,7 @@ Simple api which allow to fulfill and manage beauty saloon like data
 # Functionality
 
 * an endpoints to manage single entity
-* an endpoint to consume and parse csv files and import data into some database
+* an endpoints to consume and parse csv file and import data into database
 * an endpoint to list the top X number (endpoint parameter eg: 50) of clients that have accumulated the most loyalty points since Y date (endpoint parameter eg: 2018-01-01). Please exclude any banned clients.
 
 # Usage
