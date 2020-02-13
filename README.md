@@ -52,9 +52,7 @@ a0000002-11aa-11aa-11aa-111111aaaaaa
 { firstName: "Name", lastName: "Surname", email: "soem@email.com", phone: "111-222-333", gender: "Male" }
 * appointment create/update body:  
 { clientId: "a0000002-11aa-11aa-11aa-111111aaaaaa", startTime: "2020-01-01 12:00:00", endTime: "2020-01-01 12:30:00" }
-* purchase create/update body:  
-{ appointmentId: "b0000002-11aa-11aa-11aa-111111aaaaaa", name: "Purchase name", price: 10.5, loyaltyPoint: 10 }
-* service create/update body:  
-{ appointmentId: "b0000002-11aa-11aa-11aa-111111aaaaaa", name: "Service name", price: 15.0, loyaltyPoint: 20 }
+* purchase and service create/update body:  
+{ appointmentId: "b0000002-11aa-11aa-11aa-111111aaaaaa", name: "Some name", price: 10.5, loyaltyPoint: 10 }
 * csv file:  
 find example in /imports folder
